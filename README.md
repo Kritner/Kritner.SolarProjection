@@ -1,29 +1,5 @@
-# KritnerWebsite
-Website in .netcore
+# Kritner.SolarProjection
 
-My website, mostly used for exploring new tech and my own learning opportunities.  
+NuGet package for functionality for estimating profits/losses given a solar array proposal.  
 
-## Requirements 
-
-* docker
-* docker-compose
-
-## To run
-
-### for dev
-```cmd
-cd .docker
-docker-compose up -d
-```
-
-### for prod
-
-```cmd
-cd .docker
-docker-compose -f docker-compose.yml up -d 
-```
-
-## To build
-```cmd
-docker build -t $(DOCKER_REGISTRY)/kritnerwebsite .
-```
+The package attempts to answer the question of "With a proposal of `x` kw generation/year, at `y` per month, for `z` years, at what point during the financing terms do the solar panels become cheaper than not having them?"
