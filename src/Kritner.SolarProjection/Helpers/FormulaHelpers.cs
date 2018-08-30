@@ -4,10 +4,13 @@ using System.Text;
 
 namespace Kritner.SolarProjection.Helpers
 {
+    /// <summary>
+    /// Helper class containing formula(s?).
+    /// </summary>
     public static class FormulaHelpers
     {
         /// <summary>
-        /// Compound interest formula
+        /// Compound interest formula.
         /// </summary>
         /// <remarks>https://www.thecalculatorsite.com/articles/finance/compound-interest-formula.php</remarks>
         /// <param name="principal">The original balance</param>

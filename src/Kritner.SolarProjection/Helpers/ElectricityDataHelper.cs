@@ -5,8 +5,16 @@ using System.Text;
 
 namespace Kritner.SolarProjection.Helpers
 {
+    /// <summary>
+    /// Helper class containing data from my (The Kritner's) 2017 
+    /// electricty usage.
+    /// </summary>
     public static class ElectricityDataHelper
     {
+        /// <summary>
+        /// 2017 Yearly usage from each individual month.
+        /// </summary>
+        /// <returns></returns>
         public static YearlyKwhUsageFromMonthly GetUsageUtility2017()
         {
             List<MonthlyKwhUsage> monthlyCollection2017 = new List<MonthlyKwhUsage>()
@@ -27,13 +35,21 @@ namespace Kritner.SolarProjection.Helpers
 
             return new YearlyKwhUsageFromMonthly(monthlyCollection2017);
         }
-
+        
+        /// <summary>
+        /// 2017 Yearly usage.
+        /// </summary>
+        /// <returns></returns>
         public static YearlyKwhUsageFromAnnual GetUsageUtility2017FromAnnual()
         {
             var monthly = GetUsageUtility2017();
             return new YearlyKwhUsageFromAnnual(monthly.TotalCost, monthly.TotalKiloWattHours);
         }
 
+        /// <summary>
+        /// Solar panel mortgage each month paired with 2017 kw/h usage.
+        /// </summary>
+        /// <returns></returns>
         public static YearlyKwhUsageFromMonthly GetUsageWithPanelsMortgage()
         {
             List<MonthlyKwhUsage> panelExampleFrom2017Usage = new List<MonthlyKwhUsage>()
@@ -55,6 +71,10 @@ namespace Kritner.SolarProjection.Helpers
             return new YearlyKwhUsageFromMonthly(panelExampleFrom2017Usage);
         }
 
+        /// <summary>
+        /// Solar panel mortgage paired with 2017 year's kw/h usage.
+        /// </summary>
+        /// <returns></returns>
         public static YearlyKwhUsageFromAnnual GetUsageWithPanelsMortgageAnnual()
         {
             var monthly = GetUsageWithPanelsMortgage();

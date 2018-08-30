@@ -7,8 +7,15 @@ using System.Text;
 
 namespace Kritner.SolarProjection.Services
 {
+    /// <inheritdoc/>
     public class ProjectFutureEnergyCostService : IProjectFutureEnergyCostService
     {
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="solarEstimate">The solar estimate.</param>
+        /// <param name="projectionParameters">The parameters controlling the projection.</param>
+        /// <returns></returns>
         public SolarVsUtilityProjection CalculateFutureProjection(
             IYearlyKwhUsage solarEstimate, 
             ProjectionParameters projectionParameters
