@@ -1,6 +1,8 @@
 # Kritner.SolarProjection
 
-[![NuGet](https://img.shields.io/nuget/v/Kritner.SolarProjection.svg?style=flat)](https://www.nuget.org/packages/Kritner.SolarProjection/) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/RussellHammett)
+[![NuGet](https://img.shields.io/nuget/v/Kritner.SolarProjection.svg?style=flat)](https://www.nuget.org/packages/Kritner.SolarProjection/) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Kritner-SolarProjection/Lobby#)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/RussellHammett)
+
 
 NuGet package for functionality for estimating profits/losses given a solar array proposal.  
 
