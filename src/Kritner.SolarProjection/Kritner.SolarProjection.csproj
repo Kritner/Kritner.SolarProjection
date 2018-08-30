@@ -10,6 +10,16 @@ The package attempts to answer the question of "With a proposal of x kw generati
     <PackageProjectUrl>https://github.com/Kritner/Kritner.SolarProjection</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Kritner/Kritner.SolarProjection</RepositoryUrl>
     <PackageTags>solar, service, estimate calculator</PackageTags>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>v1.0.1 
+adds xml documentation to classes
+
+v1.0.0
+initial release</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\Kritner.SolarProjection.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
