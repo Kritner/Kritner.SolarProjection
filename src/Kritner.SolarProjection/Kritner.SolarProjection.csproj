@@ -1,7 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>NuGet package for functionality for estimating profits/losses given a solar array proposal.
+
+The package attempts to answer the question of "With a proposal of x kw generation/year, at y per month, for z years, at what point during the financing terms do the solar panels become cheaper than not having them?"</Description>
+    <Copyright>2018</Copyright>
+    <PackageLicenseUrl>https://github.com/Kritner/Kritner.SolarProjection/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Kritner/Kritner.SolarProjection</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Kritner/Kritner.SolarProjection</RepositoryUrl>
+    <PackageTags>solar, service, estimate calculator</PackageTags>
   </PropertyGroup>
 
 </Project>
