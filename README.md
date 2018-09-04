@@ -10,5 +10,4 @@ This package attempts to answer the question of "With a proposal of `x` kw gener
 
 -----
 
-If you find package useful, and would like to help support a dude in getting more stuff like this out there: 
-
+If you find package useful, and would like to help support a dude in getting more stuff like this out there, there's a little donatey boi up at the top
