@@ -11,7 +11,9 @@ namespace Kritner.SolarProjection.Services
     public class ProjectFutureEnergyCostService : IProjectFutureEnergyCostService
     {
         /// <summary>
-        /// Constructor
+        /// Builds a <see cref="SolarVsUtilityProjection" /> given a solar estimate paired
+        /// along with a set of projection parameters (years to project, years to finance, 
+        /// percentage of utility cost per kw/hr increase, etc)
         /// </summary>
         /// <param name="solarEstimate">The solar estimate.</param>
         /// <param name="projectionParameters">The parameters controlling the projection.</param>
