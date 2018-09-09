@@ -5,5 +5,5 @@ dotnet: 2.1.401
 install:
 - dotnet restore
 script:
-- dotnet build
-- dotnet test src/Kritner.SolarProjection.Tests/Kritner.SolarProjection.Tests.csproj
+- dotnet build -c Release
+- dotnet test src/Kritner.SolarProjection.Tests/Kritner.SolarProjection.Tests.csproj -c Release
