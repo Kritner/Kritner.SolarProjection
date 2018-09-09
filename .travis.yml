@@ -6,4 +6,4 @@ install:
 - dotnet restore
 script:
 - dotnet build
-- dotnet test Kritner.SolarProjection.Tests/Kritner.SolarProjection.Tests.csproj
+- dotnet test src/Kritner.SolarProjection.Tests/Kritner.SolarProjection.Tests.csproj
