@@ -1,6 +1,7 @@
 # Kritner.SolarProjection
 
-[![NuGet](https://img.shields.io/nuget/v/Kritner.SolarProjection.svg?style=flat)](https://www.nuget.org/packages/Kritner.SolarProjection/) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Kritner-SolarProjection/Lobby#)
+[![NuGet](https://img.shields.io/nuget/v/Kritner.SolarProjection.svg?style=flat)](https://www.nuget.org/packages/Kritner.SolarProjection/) ![Build](https://travis-ci.org/Kritner/Kritner.SolarProjection.svg?branch=master)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Kritner-SolarProjection/Lobby#)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/RussellHammett)
 
 
